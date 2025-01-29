@@ -1,12 +1,12 @@
-# IST356-M001: Programming Techniques for Data Analytics                     
+# IST356-M001 & M002: Programming Techniques for Data Analytics                     
 
 ```
    Room: Hinds 021
-   Time: M/W 3:45pm - 5:05pm
+   Times: M/W 2:15 - 3:35 (M002) 3:45pm - 5:05pm (M001)
 
    Instructor:  Angela Ramnarine-Rieks Ph.D.
    Email: auramnar@syr.edu
-   Office Hours:  M/W 1-2 pm in 323E Hinds Hall
+   Office Hours:  M/W 11-noon in 323E Hinds Hall
 ```
 
 ## Course Description
@@ -148,39 +148,39 @@ Based on the assignments in this course and our specified learning outcomes, the
 
 ## Class Schedule
 
-| Week | Monday Class | Wednesday Class | Friday Assignment Due|
+| Week | Monday Class | Wednesday Class | Monday Assignment Due|
 |-----|-----|-----|-----|
 | 1 | 1/13 | 1/15 | 1/17 |
 |   | Course Introduction | Python 1-1 |  |
 | 2 | 1/20 | 1/22 | 1/24 |
 |   | No Class: MLK Day | Python 1-2 | Assignment 1 (A1) |
-| 3 | 1/27 | 1/29 | 1/31 |
+| 3 | 1/27 | 1/29 | 2/3 |
 |   | Python 1-3 | Python 1-4 | Assignment 2 (A2) |
-| 4 | 2/3 | 2/5 | 2/7 |
+| 4 | 2/3 | 2/5 | 2/10 |
 |   | UI 2.1 | UI 2.2 | Assignment 3 (A3) |
-| 5 | 2/10 | 2/12 | 2/14 |
+| 5 | 2/10 | 2/12 | 2/17 |
 |   | Data Wrangling 3-1 | Data Wrangling 3-2 | Assignment 4 (A4) |
-| 6 | 2/17 | 2/19 | 2/21 |
+| 6 | 2/17 | 2/19 | 2/24 |
 |   | Data Wrangling 3-3 | Data Wrangling 3-4 | Assignment 5 (A5) |
-| 7 | 2/24 | 2/26 | 2/28 |
+| 7 | 2/24 | 2/26 | 3/3 |
 |   | Data Wrangling 3-5 | Data Wrangling 3-6 | Assignment 6 (A6) |
-| 8 | 3/3 | 3/5 | 3/7 |
+| 8 | 3/3 | 3/5 | 3/10 |
 |   | Web APIs 4-1 | Web APIs 4-2 | Assignment 7 (A7) |
 | 9 | 3/10 | 3/12 | 3/14 |
 |   |  No Class: Spring Break | No Class: Spring Break |  |
 | 10 | 3/17 | 3/19 | 3/21 |
 |   | Exam 1 and Web APIs 4-3 | Web APIs 4-4 | Assignment 8 (A8) |
-| 11 | 3/24 | 3/26 | 3/28 |
+| 11 | 3/24 | 3/26 | 3/31 |
 |    | Web Scraping 5-1 | Web Scraping 5-2 | Assignment 9 (A9) |
-| 12 | 3/31 | 4/2 | 4/4 |
+| 12 | 3/31 | 4/2 | 4/7 |
 |   | Web Scraping 5-3 | Web Scraping 5-4 | Assignment 10 (A10) |
-| 13 | 4/7 | 4/9 | 4/11 |
+| 13 | 4/7 | 4/9 | 4/14 |
 |   | Data Visualization 6-1 | Data Visualization 6-2  | Assignment 11 (A11) |
-| 14 | 4/14 | 4/16 | 4/18 |
+| 14 | 4/14 | 4/16 | 4/21 |
 |   | Data Visualization 6-3 | Data Visualization 6-4 | Assignment 12 (A12) |
-| 15 | 4/21 | 4/23 | 4/25 |
+| 15 | 4/21 | 4/23 | 4/28 |
 |   | Data Visualization 6-5 | Exam 2 | Project Deliverable  |
-| 16 | 4/28 | 4/30 | 5/2 |
+| 16 | 4/28 | 4/30 | 5/5 |
 |   | Project Demo | Semester End  |  Semester End |
 | 17 | 5/5 | 5/7 | 5/9 |
 |   | Semester End | Project Due  |  Semester End |
