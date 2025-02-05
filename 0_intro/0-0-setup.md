@@ -1,4 +1,4 @@
-# Setting up Your Computer and Yourself!
+gi# Setting up Your Computer and Yourself!
 
 In IST356 we teach you programming for data analytics using the tools and techniques used by those in the industry. As such, you will learn how to setup and configure development environments, use git and github and learn to systematically test your code.
 
