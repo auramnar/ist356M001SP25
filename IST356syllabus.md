@@ -181,9 +181,9 @@ Based on the assignments in this course and our specified learning outcomes, the
 | 15 | 4/21 | 4/23 | 4/28 |
 |   | Data Visualization 6-5 | Exam 2 | Project Deliverable  |
 | 16 | 4/28 | 4/30 | 5/5 |
-|   | Project Demo | Semester End  |  Semester End |
-| 17 | 5/5 | 5/7 | 5/9 |
-|   | Semester End | Project Due  |  Semester End |
+|   | Exam 2 | Semester End  |  Semester End |
+| 17 | 5/5 | 5/7 | 5/10 |
+|   | Semester End | Semester  |  Project Due |
 
 
 ## Reading List
