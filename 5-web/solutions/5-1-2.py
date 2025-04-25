@@ -22,9 +22,7 @@ def run(playwright: Playwright) -> None:
     # Browser contexts are isolated environments within a browser, so separate sessions without sharing cookies or other  data
     page = context.new_page()
     # open a new tab in your browser
-    
     page.goto("https://ist256.com/fall2023/syllabus/")
-
     # Let's scrape the heading off the page!
     # find all HTML elements with the tag names h2 or h3 on the loaded page. 
     # It returns a list of these element handles.
@@ -35,7 +33,7 @@ def run(playwright: Playwright) -> None:
         tag = heading.evaluate('el => el.tagName').lower()
         # get text content of the heading element using the inner_text() method.
         text = heading.inner_text()
-        if tag == "h2":cd
+        if tag == "h2":
             print(text)
         else:
             print(f"\t{text}")    
