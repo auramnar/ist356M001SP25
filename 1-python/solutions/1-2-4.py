@@ -10,3 +10,4 @@ while True:
     else:
         items[item] = qty
     print("ITEMS:", items)
+print("Final ITEMS:", items)
