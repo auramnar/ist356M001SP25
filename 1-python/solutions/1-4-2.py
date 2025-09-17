@@ -1,3 +1,44 @@
+
+'''
+import datetime 
+
+today = datetime.datetime.now()
+print(today)
+print(today.day)
+
+from datetime import datetime
+today = datetime.now
+print(today)
+
+
+bday = input("Enter your birthday")
+
+test = datetime.strptime(bday, "%m/%d/%Y")
+print(test)
+
+"Wednesday, June 22, 1990"
+
+test_str = test.strftime("%A, %B %d %Y")
+print(test_str)
+
+from datetime import datetime, timedelta
+
+from datetime import datetime, timedelta
+
+bday = input("Enter your birthday")
+
+test = datetime.strptime(bday, "%m/%d/%Y")
+# print(test)
+test = test + timedelta(days=1)
+print(test)
+test_str = test.strftime("%A, %B %d %Y")
+print(test_str)
+                 
+
+
+'''
+
+
 from datetime import datetime
 
 def parsedate_mdy(text: str):
