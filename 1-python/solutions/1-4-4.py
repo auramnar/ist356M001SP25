@@ -45,3 +45,11 @@ date = '12/30/2000'
 date_dt_expect = datetime(2000, 12, 30)
 date_dt_actual = parsedate_mdy(date)
 assert date_dt_expect == date_dt_actual, f"Test failed: expected {date_dt_expect}, got {date_dt_actual}"
+
+
+
+def test_formatdate_ymd():
+    date_dt= datetime(2025, 2, 5)
+    expect = "2025-02-05"
+    actual = formatdate_ymd(date_dt)   
+    assert expect == actual, f"Test failed: expected {expect}, got {actual}"
