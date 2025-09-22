@@ -41,7 +41,7 @@ print(test_str)
 
 from datetime import datetime
 
-def parsedate_mdy(text: str):
+def parsedate_mdy(text: str) -> datetime:
     """
     Parses a date in the format mm/dd/yyyy and returns a datetime object.
     """
@@ -54,7 +54,7 @@ def formatdate_ymd(date: datetime):
     return date.strftime("%Y-%m-%d")
 
 # Calling the functions
-text = input('Enter date m/d/y: ')
+text = input('Enter date m/d/y: ') #12/30/2000
 date = parsedate_mdy(text)
 date_str = formatdate_ymd(date)
-print(date_str)
+print(date_str) #2000-12-30
