@@ -28,3 +28,27 @@ if btn_clear:
     st.write("History and total cleared.")
     st.write(f"TOTAL: {st.session_state.total:.2f}")
 
+# Just total 
+
+import streamlit as st
+
+# initialize session sate 
+if 'total' not in st.session_state:
+    st.session_state.total = 0.0
+
+
+#Title, inputs and buttons 
+st.title("Order Total and History")
+amount = st.number_input("Amount")
+btn_add = st.button("Add to Total")
+btn_clear = st.button("Clear")
+
+#add amount 
+if btn_add:
+    st.session_state.total = st.session_state.total + amount
+    st.write(f"TOTAL:{st.session_state.total}")
+
+#clear   
+if btn_clear:
+    st.session_state = 0.0
+    
