@@ -10,7 +10,7 @@ Make the inputs, then create a suitable prompt for the LLM.
 curl -X 'POST' \
   'https://cent.ischool-iot.net/api/genai/generate?model=llama3%3Alatest&temperature=2&max_tokens=1000' \
   -H 'accept: application/json' \
-  -H 'X-API-KEY: e4817f2223fc521129078fbf' \
+  -H 'X-API-KEY: '????' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'query=how%20are%20you%20today'
 
