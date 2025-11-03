@@ -10,12 +10,9 @@ app = FastAPI()
 url = "https://raw.githubusercontent.com/mafudge/datasets/refs/heads/master/flights/sample-flights.csv"
 df = pd.read_csv(url)
 
-
-
-
-@app.get("/api/flights/search")
-def search_flights(type:str = Query(), 
-                   code:str = Query()):
+@ app.get("/api/search_flights")
+def search_flights(type: str = Query(..., description="Type of search: 'dep' for departure, 'arr' for arrival"), 
+                   code: str = Query(..., description="Airport code to search for")):
     if type == "dep":
         flights = df[df["departure_airport_code"] == code]
     elif type == "arr":
