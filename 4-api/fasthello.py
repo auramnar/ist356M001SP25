@@ -12,6 +12,13 @@ def say_hi(name: str):  # Define a function that takes a name as a parameter
     return {"message": f"Hi, {name}"}
 
 
+#Function named roll_dice. It takes two integer arguments: number, which specifies how many dice to roll, 
+#and sides, which specifies how many sides each die has (e.g., 6 for a standard die).
+
+# The phrase for _ in range(number) is a  construct used for looping a specific number of times 
+#when you don't need to use the loop counter inside the loop's body.
+
+
 @app.get("/roll/{number}d{sides}")  # Define a route with two path parameters
 def roll_dice(number: int, sides: int):  # Define a function that takes two parameters
     import random  # Import the random module
