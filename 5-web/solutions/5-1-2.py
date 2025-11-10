@@ -5,6 +5,10 @@ Scrape the Sections H2 and H3 from this page:  https://ist256.com/fall2023/sylla
 
 Print the titles, and detect the tag name so that you indent the H3 tags under the H2 tags.
 
+# part2
+tag = heading.evaluate(" el => el.tagName")
+text = heading.inner_text()
+print(f"{tag} - {text}")
 
 '''
 
@@ -33,7 +37,7 @@ def run(playwright: Playwright) -> None:
         tag = heading.evaluate('el => el.tagName').lower()
         # get text content of the heading element using the inner_text() method.
         text = heading.inner_text()
-        if tag == "h2":
+        if tag == "h3":
             print(text)
         else:
             print(f"\t{text}")    
