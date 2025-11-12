@@ -9,14 +9,17 @@ def run(playwright: Playwright) -> None:
 
     # Let's scrape the page!
     # use pandas read_html to parse the HTML
+
     # get a list of all tables on the page
-    df_teams = pd.read_html(page.content())
+    dfs = pd.read_html(page.content())
 
     # print the first table
-    print(df_teams[0])
+    df_teams = dfs[2]
+    df_teams.to_csv('nfl_teams.csv', index=False)
     # ---------------------
     context.close()
     browser.close()
-    
+
+
 with sync_playwright() as playwright:
     run(playwright)
