@@ -6,6 +6,13 @@ pengo['count'] = 1
 
 st.dataframe(pengo)
 
+figure, series1 = plt.subplots() 
+sns.barplot(data=pengo, x="species", 
+            y="flipper_length_mm", 
+            hue="sex", 
+            estimator="mean",ax=series1).set_title("Total Count by 2Species")
+st.pyplot(figure) # use the Streamlit function to render the plot
+
 figure, series1 = plt.subplots()
 sns.barplot(data=pengo, x="sex", y="body_mass_g", hue="sex", estimator="sum", ax=series1)
 st.pyplot(figure)
