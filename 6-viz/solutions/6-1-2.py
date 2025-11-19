@@ -8,6 +8,21 @@ Create a plot to show the relationship between someone's age and their data usag
 
 Create another plot to show the relationship between someone's age and gender and their data usage.
 
+mobile = pd.read_csv("./6-viz/data/mobile_user_behavior_dataset.csv")
+st.dataframe(mobile)
+
+plot, series =plt.subplots()
+sns.barplot(data =mobile, 
+            x = "Data Usage (MB/day)", 
+            y = 'Device Model', 
+            estimator = "mean",
+            errorbar=None, 
+            ax=series).set_title(f"Data Usage")
+
+st.pyplot(plot)
+    
+
+
 
 '''
 
