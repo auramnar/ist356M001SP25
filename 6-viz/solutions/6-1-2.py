@@ -22,8 +22,18 @@ sns.barplot(data =mobile,
 st.pyplot(plot)
     
 
+Part 2
 
+figure, series1 = plt.subplots()
 
+sns.lineplot(data =mobile, 
+            x = "Age", 
+            y = 'Number of Apps Installed', 
+            estimator = "mean",
+            errorbar=None, 
+            ax=series1).set_title(f"Apps Installed")
+
+st.pyplot(figure)
 '''
 
 import pandas as pd
