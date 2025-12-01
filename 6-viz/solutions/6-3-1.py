@@ -41,11 +41,11 @@ df_filtered = df_dropped[df_dropped['status'] == status]
 df_sample = df_filtered.sample(50)
 
 for i, row in df_sample.iterrows():
-    lat, lon = row['coords'].strip("(").strip(")").split(',') 
-    lat = float(lat.replace("'", ""))
-    lon = float(lon.replace("'", ""))
-    color = days[row['dayofweek']]
-    folium.Marker((lat, lon), popup=row['location'], tooltip=row['location'], icon=folium.Icon(color=color)).add_to(map)
+    lat, lon = row['coords'].strip("(").strip(")").split(',') # a string, remove parens, and seperate into lon and lat
+    lat = float(lat.replace("'", "")) # remove quotes
+    lon = float(lon.replace("'", "")) # convert to float 
+    color = days[row['dayofweek']] # add color from dictionary
+    folium.Marker((lat, lon), popup=row['location'], tooltip=row['location'], icon=folium.Icon(color=color)).add_to(map) # add markers
 
 
 sf.folium_static(map)
