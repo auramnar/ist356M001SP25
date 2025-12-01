@@ -11,6 +11,15 @@ You'll have to pivot the data to create the heatmap. So use a mean aggregation t
 
 How can you interpret the heatmap you see?
 
+
+Noticeable differences emerge between brands and nutrient types. 
+Higher-calorie food items generally contain more fat, sodium, and sugars, resulting in darker shading in those regions of the heatmap. 
+Some companies consistently show darker values across several nutrient categories, indicating richer and more calorie-dense menu items, 
+while others remain lighter, suggesting comparatively lower nutritional counts. 
+The visual layout makes it easy to identify which chains offer items with higher concentrations of macronutrients and 
+where the most nutritionally dense foods cluster in terms of calorie level. Overall, the heatmap highlights variation in 
+nutritional quality across brands and suggests that calorie increases usually correlate with higher macronutrient and sodium content.
+
 '''
 
 
